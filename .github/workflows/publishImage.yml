@@ -29,9 +29,11 @@ jobs:
       - 
         name: Install dependencies
         run: dotnet restore
+        working-directory: ./scr/DiscordLichessBot
 
       - name: Build
         run: dotnet build --configuration Release --no-restore
+        working-directory: ./scr/DiscordLichessBot
       -
         name: Build and push
         uses: docker/build-push-action@v2
