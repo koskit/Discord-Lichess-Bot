@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LichessApiHelper", "LichessApiHelper\LichessApiHelper.csproj", "{610657E8-C914-4C15-B4CC-D296E4FF2CF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerHelper", "DockerHelper\DockerHelper.csproj", "{44EE1CC8-4CF8-40B0-A874-0238E6415ABC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordLichessBot", "DiscordLichessBot\DiscordLichessBot.csproj", "{831D901E-4C85-474C-9157-ECB541A40CC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610657E8-C914-4C15-B4CC-D296E4FF2CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610657E8-C914-4C15-B4CC-D296E4FF2CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610657E8-C914-4C15-B4CC-D296E4FF2CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610657E8-C914-4C15-B4CC-D296E4FF2CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EE1CC8-4CF8-40B0-A874-0238E6415ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EE1CC8-4CF8-40B0-A874-0238E6415ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EE1CC8-4CF8-40B0-A874-0238E6415ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EE1CC8-4CF8-40B0-A874-0238E6415ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831D901E-4C85-474C-9157-ECB541A40CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831D901E-4C85-474C-9157-ECB541A40CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831D901E-4C85-474C-9157-ECB541A40CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831D901E-4C85-474C-9157-ECB541A40CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48BD1E64-5BDD-4F2F-AFF4-2A8B0F8BDB7B}
+	EndGlobalSection
+EndGlobal
