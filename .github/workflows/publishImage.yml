@@ -21,12 +21,15 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - name: Setup .NET Core SDK 3.1.x
+      - 
+        name: Setup .NET Core SDK 3.1.x
         uses: actions/setup-dotnet@v1.7.2
         with:
           dotnet-version: 3.1.x
-      - name: Install dependencies
+      - 
+        name: Install dependencies
         run: dotnet restore
+
       - name: Build
         run: dotnet build --configuration Release --no-restore
       -
